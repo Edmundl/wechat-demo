@@ -1,0 +1,18 @@
+/**index.wxss**/
+.title{
+  width:100%;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  background-color: #4a4392;
+  color: #FFF;
+}
+.btn{
+  display: flex;
+  flex-flow: row;
+}
+.updel{
+  width:20%;
+  background: red;
+  color: #FFF;
+}

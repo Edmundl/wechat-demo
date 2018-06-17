@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="title">这是一个首页</view>
+<view wx:for="{{array}}" wx:key="" >
+  <text>{{item.id}}</text>
+  <text>{{item.text}}</text>
+  <view class='btn'>
+    <button class='updel' bindtap='up' data-id="{{item.id}}" data-text="{{item.text}}">修改</button>
+    <button class='updel' bindtap='del' data-id="{{item.id}}">删除</button>
+  </view>
+</view>

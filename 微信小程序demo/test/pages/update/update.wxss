@@ -1,0 +1,9 @@
+/* pages/update/update.wxss */
+.title{
+  width:100%;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  background-color: #4a4392;
+  color: #FFF;
+}

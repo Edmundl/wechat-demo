@@ -1,0 +1,9 @@
+<!--pages/update/update.wxml-->
+<view class="title">这是一个修改页面</view>
+<view>
+  <form bindsubmit='formbindsubmit'>
+    修改一个文本数据:
+    <input type='text' name='txt' value='{{text}}'></input>
+    <button form-type="submit">修改</button>
+  </form>
+</view>

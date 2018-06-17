@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/add/add",
+    "pages/update/update"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"pages/images/xs1.png",
+        "selectedIconPath":"pages/images/xs2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "pages/images/add1.png",
+        "selectedIconPath": "pages/images/add2.png",
+        "text": "增加"
+      }
+    ]
+  }
+}

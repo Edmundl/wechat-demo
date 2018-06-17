@@ -1,0 +1,9 @@
+<!--pages/add/add.wxml-->
+<view class='title'>这是一个添加页面</view>
+<view>
+  <form bindsubmit='formbindsubmit'>
+    添加一个文本数据:
+    <input type='text' placeholder='请输入添加文本' name='txt'></input>
+    <button form-type="submit">添加</button>
+  </form>
+</view>
